@@ -22,3 +22,11 @@ Powerline Shell (https://github.com/b-ryan/powerline-shell)
 4. Finally in the terminal choose "Ubuntu Mono Regular" or some other Powerline font (Search for it)
 
 * This shell does not work for terminals inside Jetbeans products(Pycharm, IntelliJ). To get a normal unmangled prompt there set an environment valiable called CUSTOM to  value "set" from the IntelliJ / Pycharm settings
+
+===========================================================
+
+# Make vi the terminal's default editor (add in .bashrc)
+
+
+export VISUAL=vim
+export EDITOR="$VISUAL"
