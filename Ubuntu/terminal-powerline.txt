@@ -1,0 +1,24 @@
+Powerline Shell (https://github.com/b-ryan/powerline-shell)
+
+1. Do This:
+
+	sudo pip install powerline-shell
+
+
+2. Install powerline fonts (https://github.com/powerline/fonts)
+
+	sudo apt-get install fonts-powerline
+
+3.Then Add this to .bashrc
+
+	function _update_ps1() {
+	    PS1=$(powerline-shell $?)
+	}
+
+	if [[ $CUSTOM != set && $TERM != linux && ! $PROMPT_COMMAND =~ _update_ps1 ]]; then
+	    PROMPT_COMMAND="_update_ps1; $PROMPT_COMMAND"
+	fi
+
+4. Finally in the terminal choose "Ubuntu Mono Regular" or some other Powerline font (Search for it)
+
+* This shell does not work for terminals inside Jetbeans products(Pycharm, IntelliJ). To get a normal unmangled prompt there set an environment valiable called CUSTOM to  value "set" from the IntelliJ / Pycharm settings

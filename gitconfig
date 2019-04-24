@@ -1,0 +1,41 @@
+[user]
+        email = rrc.999@gmail.com
+        name = Rajat Raychaudhuri
+[color]
+        ui = auto
+[core]
+        pager = less -FMRiX
+        excludesfile = ~/.gitignore
+[push]
+        default = simple
+[alias]
+    st = status
+    ck = checkout
+    ckm = checkout -t origin/mainline
+
+   #Log related
+        dag = log --graph --format='format:%C(yellow)%h%C(reset) %C(blue)\"%an\" <%ae>%C(reset) %C(magenta)%ar%C(reset)%C(auto)%d%C(reset)%n%s' --date-order
+    lg = log --format='format:%h \t %ar \t %an : %s' -10
+    ll = log --format='format:%h \t %ar \t %an : %s'  --since=2.weeks
+
+   #Branch related 
+    br = branch
+    brst = branch --set-upstream-to
+
+   #Rebase related
+    rc = rebase --continue
+    rs = rebase --skip
+
+   #Stash Related
+    sta = stash
+    staa = stash apply
+    stal = stash list
+    stab = stash branch
+    stad = stash drop stash@{0}
+
+# [amazon]
+#         append-cr-url = true
+#         pull-request-by-default = true
+
+[pull]
+        rebase = true

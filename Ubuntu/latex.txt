@@ -1,0 +1,10 @@
+Installing Latex subfiles and other packages
+
+Install kile from ubuntu sw center
+sudo apt-get install okular
+
+Unzip subfiles.zip
+latex subfiles.ins
+sudo mkdir /usr/share/texmf/tex/latex/subfiles
+sudo cp subfiles.sty /usr/share/texmf/tex/latex/subfiles
+sudo texhash
