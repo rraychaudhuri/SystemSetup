@@ -3,10 +3,14 @@
 	- Pretty Json
 	- Alignment
 	- GitGutter
+	- SidebarEnhancement 
 	- Autopep8 (ctrl + shift + 8 to perform autoformat on a file)
 
 	- Material Theme (https://www.youtube.com/watch?v=oHmPrjSzmwU)
 	- Fileicons
+
+	// IMPORTANT: Usually last closed file can be reopened by this ctrl+shift+t command. this package will oveeride that
+	- Terminal (ctrl + shift + t to get terminal on the folder of the present file)
 
 
 ========================================
