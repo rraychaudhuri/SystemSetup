@@ -2,6 +2,12 @@
 2. Install the following Packages:
 	- Pretty Json
 	- Alignment
+	- GitGutter
+	- Autopep8 (ctrl + shift + 8 to perform autoformat on a file)
+
+	- Material Theme (https://www.youtube.com/watch?v=oHmPrjSzmwU)
+	- Fileicons
+
 
 ========================================
 
