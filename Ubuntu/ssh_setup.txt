@@ -1,0 +1,30 @@
+Generate ssh keys:
+
+	ssh-keygen -t rsa
+
+	* Provide different filenames for different hosts (github, bitbucket, digital ocean etc)
+	* Don't provide passphrase
+
+Sample ssh config file (notice the github/bitbucket entry):
+
+	Host ocean-root
+	    User root
+	    HostName 134.209.53.163
+	    IdentityFile ~/.ssh/digital_ocean
+
+	Host ocean
+	    User rajat
+	    HostName 134.209.53.163
+	    IdentityFile ~/.ssh/digital_ocean_user
+
+	Host github
+	    User rraychaudhuri
+	    HostName github.com
+	    IdentityFile ~/.ssh/github
+
+	Host bitbucket
+	    User rraychaudhuri
+	    HostName bitbucket.com
+	    IdentityFile ~/.ssh/bitbucket
+
+
