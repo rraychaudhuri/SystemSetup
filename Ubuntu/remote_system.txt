@@ -1,0 +1,5 @@
+Installed on Digital Ocean Droplet:
+
+1. Docker
+2. tshark (wireshark from terminal)
+3. vim
