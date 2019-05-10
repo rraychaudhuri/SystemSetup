@@ -1,3 +1,10 @@
 alias jup="jupyter qtconsole"
 alias p="jupyter console"
 alias nb="jupyter notebook"
+
+
+# Invoke as : ch ls
+ch() {
+	curl cheat.sh/$1
+}
+
