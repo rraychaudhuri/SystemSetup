@@ -1,4 +1,4 @@
-alias jup="jupyter qtconsole"
+alias jup="jupyter qtconsole --no-confirm-exit"
 alias p="jupyter console"
 alias nb="jupyter notebook"
 
