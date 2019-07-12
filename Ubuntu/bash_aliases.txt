@@ -3,6 +3,9 @@ alias p="jupyter console"
 alias nb="jupyter notebook"
 
 
+alias ns="nosetests -v --with-id"
+
+
 # Invoke as : ch ls
 ch() {
 	curl cheat.sh/$1
