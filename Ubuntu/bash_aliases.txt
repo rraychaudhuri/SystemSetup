@@ -11,3 +11,6 @@ ch() {
 	curl cheat.sh/$1
 }
 
+
+alias ec="expressvpn connect smart"
+alias es="expressvpn status"

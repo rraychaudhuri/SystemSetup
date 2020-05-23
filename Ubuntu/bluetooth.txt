@@ -1,0 +1,20 @@
+This is one option tht fixed my bluetooth once
+
+# Install stuff
+sudo apt install pulseaudio pulseaudio-module-bluetooth pavucontrol bluez
+
+
+# restart bluetooth services
+
+service bluetooth restart
+sudo killall pulseaudio
+
+# Check status
+service bluetooth status
+
+
+# Remove the Bluetooth Device first from the system then reconnect
+
+Now checking status again will show an extra line saying the device got connected
+Now bluetooth should be fixed
+
