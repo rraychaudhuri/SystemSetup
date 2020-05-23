@@ -2,11 +2,8 @@ alias jup="jupyter qtconsole --no-confirm-exit"
 alias p="jupyter console"
 alias nb="jupyter notebook"
 
-
 alias ns="nosetests -v --with-id"
 
-
-# Invoke as : ch ls
 ch() {
 	curl cheat.sh/$1
 }
@@ -14,3 +11,12 @@ ch() {
 
 alias ec="expressvpn connect smart"
 alias es="expressvpn status"
+alias ecg="expressvpn connect Germany"
+
+
+####################
+# System Specific
+####################
+
+#alias torr='sh -c "/home/rajat/Installations/tor-browser-linux64-8.5.4_en-US/tor-browser_en-US/Browser/start-tor-browser --detach" dummy %k'
+alias torr='/home/rajat/Installations/tor-browser-linux64-8.5.4_en-US/tor-browser_en-US/Browser/start-tor-browser --detach'
