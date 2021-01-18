@@ -6,7 +6,7 @@ sudo apt install pulseaudio pulseaudio-module-bluetooth pavucontrol bluez
 
 # restart bluetooth services
 
-service bluetooth restart
+sudo service bluetooth restart
 sudo killall pulseaudio
 
 # Check status

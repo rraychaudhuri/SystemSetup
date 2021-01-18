@@ -1,0 +1,26 @@
+# Complete Purge Docker from syetem
+====================================
+
+To identify what installed package you have:
+
+	dpkg -l | grep -i docker
+
+Remove
+
+	sudo apt-get purge -y docker-engine docker docker.io docker-ce docker-ce-cli
+	sudo apt-get autoremove -y --purge docker-engine docker docker.io docker-ce  
+
+Delete
+
+	sudo rm -rf /var/lib/docker /etc/docker
+	sudo rm /etc/apparmor.d/docker
+	sudo groupdel docker
+	sudo rm -rf /var/run/docker.sock
+
+
+
+========================================================
+
+
+Good tutorial on Dokerfile: https://takacsmark.com/dockerfile-tutorial-by-example-dockerfile-best-practices-2018/
+
