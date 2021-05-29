@@ -1,0 +1,19 @@
+
+ENV_NAME=chk
+
+
+
+conda create -n $ENV_NAME python=3.7
+
+
+conda actiavte $ENV_NAME
+
+
+conda deactivate 
+
+
+conda env remove -n $ENV_NAME
+
+
+
+
