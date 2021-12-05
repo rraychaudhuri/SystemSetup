@@ -8,6 +8,7 @@ ch() {
 	curl cheat.sh/$1
 }
 
+alias rsync="rsync -azvhP"
 
 alias ec="expressvpn connect smart"
 alias es="expressvpn status"

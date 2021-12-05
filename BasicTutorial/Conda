@@ -1,6 +1,8 @@
 
 ENV_NAME=chk
 
+conda info
+conda info --env
 
 
 conda create -n $ENV_NAME python=3.7
