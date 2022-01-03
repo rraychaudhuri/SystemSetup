@@ -32,3 +32,5 @@
 - [Reactive Programming in Java](https://projectreactor.io/docs/core/release/reference/)
 - [Java 8 Features](https://leanpub.com/whatsnewinjava8/read)
 
+#### People and their Blogs
+- [Peter Bourgon : for Go Kit](https://peter.bourgon.org/articles/) : Also see his blog on the same domain
